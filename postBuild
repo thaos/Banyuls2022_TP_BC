@@ -1,3 +1,4 @@
 set -ex 
 
+Rscript -e "install.packages('ROOPSD_0.3.6.tar.gz', type = 'source')"
 Rscript -e "install.packages('SBCK_0.5.0.tar.gz', type = 'source')"
